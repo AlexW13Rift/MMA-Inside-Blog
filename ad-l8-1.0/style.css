@@ -1,0 +1,164 @@
+/* Estilos generales */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Encabezado */
+header {
+    background-color: #c8102e;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* Menú de navegación */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 25px;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+    color: #ff4757;
+}
+
+.navbar .nav-link.active {
+    color: #ff4757;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px 0;
+    text-align: center;
+    min-height: 300px;
+}
+
+main aside {
+    min-height: 100%;
+    text-align: center;
+}
+
+main h2 {
+    color: #ff4757;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Secciones de la página de inicio */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #ff4757;
+}
+
+article {
+    background-color: #292929;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: white;
+}
+
+/* Imágenes de las disciplinas */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Información del footer */
+footer h3 {
+    color: #ff4757;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+/* Noticias con Bootstrap */
+.card {
+    border: 1px solid #c8102e;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #ff4757;
+    font-size: 22px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Formulario */
+.form-control {
+    background-color: #292929;
+    color: white;
+    border: 1px solid #c8102e;
+}
+
+.form-control:focus {
+    background-color: #292929;
+    color: white;
+    border-color: #ff4757;
+    box-shadow: 0 0 5px #c8102e;
+}
+
+.form-control::placeholder {
+    color: #adb5bd;
+}
+
+.btn-danger {
+    background-color: #c8102e;
+    border-color: #c8102e;
+}
+
+.btn-danger:hover {
+    background-color: #ff4757;
+    border-color: #ff4757;
+}
